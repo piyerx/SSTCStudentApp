@@ -18,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.095"
+        app:layout_constraintVertical_bias="0.1"
         app:srcCompat="@drawable/sstc_logo" />
 
     <TextView
@@ -27,6 +27,7 @@
         android:layout_height="wrap_content"
         android:paddingTop="15dp"
         android:text="@string/Title"
+        android:textStyle="bold"
         android:textSize="25sp"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,7 +38,7 @@
         app:layout_constraintVertical_bias="0.373" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/buttonProfile"
         android:layout_width="200dp"
         android:layout_height="48dp"
         android:backgroundTint="@color/buttons"
@@ -52,7 +53,7 @@
         app:layout_constraintVertical_bias="0.174" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonSemTT"
         android:layout_width="200dp"
         android:layout_height="48dp"
         android:backgroundTint="@color/buttons"
@@ -67,7 +68,7 @@
         app:layout_constraintVertical_bias="0.32" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonNotif"
         android:layout_width="200dp"
         android:layout_height="48dp"
         android:backgroundTint="@color/buttons"
@@ -90,7 +91,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonNotif" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

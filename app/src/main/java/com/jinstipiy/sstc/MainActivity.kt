@@ -21,13 +21,29 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        //BUTTONS SECTION-------------------------------------
+
         // I have linked the button on Homescreen using ID
-        val button1 = findViewById<Button>(R.id.button1)
+        val button1 = findViewById<Button>(R.id.buttonProfile)
 
         // OnClickListener for the button
         button1.setOnClickListener {
             // Navigation to sstcPortal
             val intent = Intent(this, SstcPortal::class.java)
+            startActivity(intent)
+        }
+
+        // For BUTTON 2
+        val button2 = findViewById<Button>(R.id.buttonSemTT)
+        button2.setOnClickListener {
+            val intent = Intent(this, SemTT::class.java)
+            startActivity(intent)
+        }
+
+        //For BUTTON 3
+        val button3 = findViewById<Button>(R.id.buttonNotif)
+        button3.setOnClickListener {
+            val intent = Intent(this, notif::class.java)
             startActivity(intent)
         }
     }

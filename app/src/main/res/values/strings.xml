@@ -2,7 +2,7 @@
     <string name="app_name">SSTC Student App</string>
     <string name="button1">My Profile</string>
     <string name="button2">Time Table</string>
-    <string name="button3">Exams Info</string>
-    <string name="Title">The\n<b>SSTC Students' App</b></string>
-    <string name="Credits">Made by\n<b>Stiwart | Jinisha | Piyush</b>\n<i>Sem 3 Mini Project</i></string>
+    <string name="button3">Notifications</string>
+    <string name="Title">The\n SSTC Students\' App</string>
+    <string name="Credits">Made by\n Stiwart | Jinisha | Piyush \n Sem 3 Mini Project 2024</string>
 </resources>
